@@ -1,0 +1,983 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cinzel:wght@400..900&family=Concert+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Monsieur+La+Doulaise&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+ }
+   
+
+ .bodycars{
+   background-image: url(pexels-kwaku-omari-jnr-433296212-32594346\ \(2\).jpg);
+   color: black;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+ }
+   
+  
+
+
+
+  .heado{
+    box-shadow: 5px 5px 30px rgb(1, 233, 13);
+     background-color:rgba(255, 255, 255, 0.877);
+    padding: 10px;
+    margin: 10px;
+    display: flex; 
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 20px;
+
+    
+   }
+
+
+
+  .lien1 {
+    display: flex;
+    gap: 20px;
+    
+  }
+
+  .lien2 {
+   display: none;
+  }
+
+ .lien1 a {
+   color:white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s;
+    background-color:black;
+    padding: 3px 8px;
+    border-radius: 10px;
+  }
+
+    .lien1 a:hover{
+    color:orangered;
+    }
+
+
+  h1 a{
+   color:white;
+  }
+
+   .logoresto img{
+   width: 190px;
+ }
+
+  .navigation{
+   
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:30px ;
+    margin-bottom: 100px;
+
+  }
+
+  .navigation h4 {
+  font-family: "monsieur la doulaise", sans-serif;
+  font-size: 72px;
+  }
+
+  .navigation h2 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+     line-height:90px;
+  }
+   
+  
+   .red {
+      color: red;
+   }
+
+   .title {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   }
+
+
+
+   .destinations .small-desc {
+    color: #999;
+    width:60%;
+    font-size: 14px;
+   }
+
+ 
+
+
+
+
+  
+   .description h1 {
+    color: black;
+   }
+
+  
+      footer {
+         margin: 20px;
+        background-color: #f1f1f1;
+        border-radius:20px;
+        padding: 10px 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+      }
+
+      footer .right-footer {
+        color: #999;
+        font-size: 14px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .bodymenu {
+          background-image: url(wite.naija.jpg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;  background-size: cover;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: center;
+          padding: 20px;
+         
+         }
+
+      .menu-container {
+         max-width:950px;
+         margin: 0 auto;
+         background-color:black;
+         padding:20px;
+         border-radius: 10px;
+         box-shadow: 5px 5px 30px rgb(4, 24, 5);
+      }
+
+      .bodyh1 {
+        color: white;
+       font-size: 4rem;
+       margin-bottom: 30px;
+      }
+
+      .bodyh1::after {
+         content: '';
+         display: block;
+         width: 100%;
+         height: 3px;
+         background-color: rgb(59, 59, 59);
+         margin-top: 20px;
+      }
+
+       .bodyh1::before {
+        
+         content: '';
+         display: block;
+         width: 100%;
+         height: 3px;
+         background-color: rgb(59, 59, 59);
+         margin-bottom: 20px;
+       }
+
+       .menu-grid{
+        margin-top: 10px;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+       }
+     
+        
+   .food{
+    text-align: center;
+    margin :20px;
+   }
+
+    .food img {
+      border-radius: 13px;
+     width: 200px;
+     height: 150px;
+     object-fit: cover;
+     margin-bottom: 10px
+
+     
+   }
+   
+.chicken {
+  color: white;
+}
+  
+       
+
+       .dessert-beverage {
+         display: flex;
+         justify-content: space-between;
+         margin-top: 20px;
+         text-align: left;
+         padding: 0 20PX;
+       }
+
+       .dessert-beverage div {
+         width: 45%;
+       }
+
+
+       .dessert-beverage div .bodyh4{
+         font-size: 20px;
+      
+
+       }
+
+       .dessert-beverage div ul{
+         margin: 20px;
+         list-style: none;
+         padding: 0;
+       }
+
+       .dessert-beverage div ul li{
+          display: flex;
+          justify-content: space-between;
+          margin: 5px 0;
+          border-bottom: 1px solid #ddd;
+        }
+
+       
+    .bodymenu a {
+      display: flex;
+      justify-content: flex-start;
+      font-size: 60px;
+      color:green;
+      
+    }
+
+    .bodyabout {
+      background-color: rgb(231, 200, 160);
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center;
+      padding: 20px; 
+   
+    }
+      .bodyabout a {
+      display: flex;
+      justify-content: flex-start;
+      font-size: 60px;
+      color:green;
+    }
+   
+
+      .heading {
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      margin: 20px;
+      }
+   
+
+   .heading .abouth1 {
+      font-size: 50px;
+      color: #000;
+      margin-bottom: 25px;
+      position: relative;
+   }
+
+    .heading .abouth1::after {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 4px;
+     display: block;
+     margin: 0 auto;
+     background-color: #4caf50;
+   }
+
+   .heading p {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 35px;
+   }
+
+   .container {
+      width: 90%;
+      margin: 0 auto;
+      padding: 10px 20px;
+   }
+
+   .about {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+   }
+
+   .about-image {
+      flex:1;
+      margin-right: 40px;
+      overflow: hidden;
+   }
+
+   .about-image img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      transition: 0.5s ease;
+      border-radius: 20px;
+
+   }
+    
+   .about-image:hover img{
+      transform: scale(1.2);
+      
+   }
+
+   .about-content {
+    flex:1;
+
+   }
+
+   .about-content .abouth2 {
+      font-size: 23px;
+      margin-bottom: 15px;
+      color: #333;
+
+   }
+
+   .about-content p {
+      font-size: 18px;
+      line-height: 1.5;
+      color: #666;
+   }
+
+
+
+   .bodycontact {
+     background-image: url(wite.naija.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     padding: 0;
+     margin: 0; auto
+     box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+     text-decoration: none;
+   }
+
+    .contact-section {
+      max-width: 600px;
+      background-color: #ffff;
+      margin: 50px;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      
+
+     }
+
+
+       .contact-section h1 {
+        color: orange;
+        margin-bottom: 30px;
+        font-size: 65px;
+       }
+
+
+    .contact-info h2,
+    .contact-reservation h2 {
+      font-size: 20px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .contact-info p {
+      margin: 5px 0;
+      color:#555;
+    }
+
+    .contact-reservation p {
+      
+      margin-bottom: 15px;
+      color: #555;
+    }
+
+    .whatsapp-link {
+      display: inline-block;
+      background-color: #25d366;
+      color: white;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .whatsapp-link:hover {
+      background-color: #1ebe5d;
+    }
+
+    .fleshcontact {
+      color: green;
+      font-size: 65px;
+    }
+
+    .contacth2 {
+      font-size: 30px;
+      margin: 20px;
+
+    }
+
+    .contactp{
+      font-size: 20px;
+      margin: 30px;
+      font-weight: bold;
+     }
+
+     .dollar {
+      background-color: rgba(0, 0, 255, 0.411);
+     }
+
+     .foodetail{
+      font-size: 12px;
+      font-weight: bold;
+      color: #999;
+      padding-bottom: 17px;
+     }
+     
+
+     .price {
+      font-weight:bold;
+     }
+      .ulo{
+       font-size: 15px;
+       color: blue;
+      }
+       
+
+      .copyright-joeweb{
+        position: fixed;
+        color:grey;
+        bottom: 0;
+        width: 100%;
+        background-color:rgba(255, 255, 255, 0.877);
+        line-height: 3;
+        text-align: center;
+        left: 0;
+      }
+      
+
+
+    @media (max-width:700px ){
+
+      
+      .ulo {
+       font-size: 13px;
+       color: blue;
+      }
+      
+     .foodetail{
+      font-size: 12px;
+      font-weight: bold;
+      color: #999;
+      padding-bottom: 17px;
+     }
+     
+
+     .price {
+      font-weight:bold;
+     }
+           
+     .food img {
+          border-radius: 14px;
+          width: 250px;
+          height: 150px;
+          object-fit: cover;
+          margin-bottom: 10px;
+        }
+    
+    .bodycars{
+    color: aliceblue;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    }
+  
+
+
+
+    .heado{
+     box-shadow: 5px 5px 30px rgb(1, 233, 13);
+     background-color:rgba(255, 255, 255, 0.877);
+     padding: 10px;
+     margin: 10px;
+     display: flex; 
+     justify-content:space-around;
+     align-items: center;
+    
+     }
+
+      
+        .logoresto img {
+          width: 70%;
+        }
+
+        .navigation h4 {
+         font-family: "monsieur la doulaise", sans-serif;
+         font-size: 62px;
+        }
+
+        .navigation h2 {
+         color: white;
+         font-family: "Poppins", sans-serif;
+         font-size: 34px;
+         line-height: 92px;
+         }
+
+        .title {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 28px;
+         margin: 40px;
+        }
+        
+       .destinations .gallerie .description h1 {
+       font-size: 20px;
+       margin-bottom: 10px;
+       }
+
+      .destinations .gallerie .description p {
+        font-size: 12px;
+        color: black;
+        font-weight: bold;
+       }
+
+       
+
+      .menu-container {
+         max-width:950px;
+         margin: 0 auto;
+         background-color: black;
+        
+         padding:20px;
+         border-radius: 10px;
+         box-shadow: 5px 5px 30px rgb(4, 24, 5);
+      }
+
+      .bodyh1 {
+       font-size: 4rem;
+       margin-bottom: 30px;
+      }
+
+      .bodyh1::after {
+         content: '';
+         display: block;
+         width: 100%;
+         height: 3px;
+         background-color: rgb(59, 59, 59);
+         margin-top: 20px;
+      }
+
+       .bodyh1::before {
+         content: '';
+         display: block;
+         width: 100%;
+         height: 3px;
+         background-color: rgb(59, 59, 59);
+         margin-bottom: 20px;
+      }
+
+
+          
+
+       .dessert-beverage {
+         display: flex;
+         justify-content: space-between;
+         margin-top: 20px;
+         text-align: left;
+         padding: 0 20PX;
+       }
+
+       .dessert-beverage div {
+         width: 45%;
+       }
+
+
+       .dessert-beverage div .bodyh4{
+         font-size: 20px;
+
+       }
+
+       .dessert-beverage div ul{
+         margin: 20px;
+         list-style: none;
+         padding: 0;
+       }
+
+      .dessert-beverage div ul li{
+          display: flex;
+          justify-content: space-between;
+          margin: 5px 0;
+          border-bottom: 1px solid #ddd;
+       }
+
+       
+     .bodymenu a {
+      display: flex;
+      justify-content: flex-start;
+      font-size: 60px;
+      color:green;
+      
+     }
+
+
+
+
+      .bodyabout {
+      background-color: rgb(231, 200, 160);
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center;
+      padding: 20px; 
+   
+   }
+   .bodyabout a {
+      display: flex;
+      justify-content: flex-start;
+      font-size: 60px;
+      color:green;
+   }
+   
+
+     .heading {
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      margin: 20px;
+    }
+   
+
+   .heading .abouth1 {
+      font-size: 50px;
+      color: #000;
+      margin-bottom: 25px;
+      position: relative;
+   }
+
+   .heading .abouth1::after {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 4px;
+     display: block;
+     margin: 0 auto;
+     background-color: #4caf50;
+   }
+
+   .heading p {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 35px;
+   }
+
+   .container {
+      width: 90%;
+      margin: 0 auto;
+      padding: 10px 20px;
+   }
+
+   .about {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+   }
+
+   .about-image {
+      flex:1;
+      margin-right: 40px;
+      overflow: hidden;
+   }
+
+   .about-image img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      transition: 0.5s ease;
+      border-radius: 20px;
+
+   }
+    
+   .about-image:hover img{
+      transform: scale(1.2);
+      
+   }
+
+   .about-content {
+    flex:1;
+
+   }
+
+   .about-content .abouth2 {
+      font-size: 23px;
+      margin-bottom: 15px;
+      color: #333;
+
+   }
+
+   .about-content p {
+      font-size: 18px;
+      line-height: 1.5;
+      color: #666;
+   }
+
+
+     .contact-section {
+      max-width: 600px;
+      background-color: #ffff;
+      margin: 50px;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      
+
+    }
+
+   
+       .contact-section h1 {
+        color: orange;
+        margin-bottom: 30px;
+        font-size: 65px;
+       }
+
+    
+
+    .contact-info h2,
+    .contact-reservation h2 {
+      font-size: 28px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      color: black;
+    }
+
+    .contact-info p {
+     margin: 20px;
+     color: #555;
+     font-size: 30px;
+
+    }
+
+    .contact-reservation p {
+      
+      margin-bottom: 15px;
+      color: #555;
+    }
+
+    .whatsapp-link {
+      display: inline-block;
+      background-color: #25d366;
+      color: white;
+      text-decoration: none;
+      padding: 3px 8px;
+      border-radius: 5px;
+      font-size: 19px;
+    }
+
+    .whatsapp-link:hover {
+      background-color: #1ebe5d;
+    }
+
+    .fleshcontact {
+      color: green;
+      font-size: 65px;
+    }
+
+      .contacth2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+     }
+     
+     .contactp{
+      font-size: 20px;
+      margin: 30px;
+      font-weight: bold;
+     }
+
+       .whatsapp-link {
+        display: inline-block;
+        background-color: #25d366;
+        color: white;
+        text-decoration: none;
+        padding: 14px 22px;
+        border-radius: 5px;
+        font-size: 29px;
+         }
+
+        .menu-grid {
+         margin-top: 10px;
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         }
+         
+            
+         
+
+}
+
+
+
+
+
+@media (max-width:400px ){
+
+  .heado {
+     background-color:rgba(255, 255, 255, 0.877);
+  }
+
+  .menu-container {
+    background-color: black;
+  }
+      
+  .ulo{
+     font-size: 13px;
+     color: blue;
+  }
+  
+     .foodetail{
+      font-size: 12px;
+      font-weight: bold;
+      color: #999;
+      padding-bottom: 17px;
+     }
+     
+
+     .price {
+      font-weight:bold;
+     }
+   
+
+    .lien1 a {
+      display: none;
+    }
+
+   
+   
+
+           .logoresto img {
+           width: 55%;
+          }
+         
+          .navigation h4 {
+            font-family: "monsieur la doulaise", sans-serif;
+             font-size: 65px;
+          }
+          
+            
+          .navigation h2{
+            color: white;
+          }
+
+          .red {
+            color: red;
+          }
+
+
+          .bodyh1 {
+            color: black;
+            font-size: 3rem;
+          }
+
+             .dessert-beverage {
+              padding-top: 20%;
+              }
+              
+              .menu-grid {
+               margin-top: 10px;
+               display: flex;
+               flex-direction: column;
+             }
+                 .food img {
+                 border-radius: 13px;
+                 width: 160px;
+                 height: 150px;
+                 object-fit: cover;
+                 margin-bottom: 10px;
+                }
+
+                    .contact-section h1 {
+                    color: orange;
+                    margin-bottom: 30px;
+                    font-size: 45px;
+                    }
+
+                    .lien2 a {
+                     color:black;
+                     font-weight: bold;
+                     font-size: 20px;
+                     transition: 0.5s;
+                     background-color:rgba(255, 255, 255, 0.877);
+                     padding: 3px 8px;
+                     border-radius: 10px;
+                     }
+
+                   .lien2 a:hover{
+                   color:orangered;
+                   }
+
+
+                   h2 a{
+                   rgba:(255, 255, 255, 0.877);
+                  }
+
+
+                  .lien2 {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 8px;
+    
+                  }
+
+
+
+
+
+}
+
+
+       
